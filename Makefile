@@ -1,5 +1,6 @@
 all: 
-	javac src/geometry/*.java src/main/*.java
+	javac src/main/*.java
 	java src/main/Rtx
-clearn:
-	rm *.class
+
+clean:
+	rm src/*/*.class
